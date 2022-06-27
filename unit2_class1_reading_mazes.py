@@ -8,7 +8,6 @@ Lesson 3: Reading a maze from text file
 5. Display a maze from a text file
 """
 
-
 with open('mazes/wide_maze.txt') as f:
     lines = [[char for char in line.strip('\n')] for line in f]
 
@@ -19,3 +18,13 @@ if len(line) == len(line[0]):
     print('The maze is rectangular')
 else:
     print('The maze is not rectangular')
+
+
+print('=' * 30)
+
+
+from help_functions import read_maze
+url = 'mazes/challenge_maze.txt'
+maze = read_maze(url)
+
+print(maze)
