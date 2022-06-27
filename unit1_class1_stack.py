@@ -1,3 +1,9 @@
+"""
+Lesson 1: The Stack data structure
+
+1. Understand the stack data structure
+2. Build a stack class
+"""
 
 class Stack:
 
