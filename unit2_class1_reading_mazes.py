@@ -14,7 +14,7 @@ with open('mazes/wide_maze.txt') as f:
 for line in lines:
     print(line)
 
-if len(line) == len(line[0]):
+if len(lines) == len(lines[0]):
     print('The maze is rectangular')
 else:
     print('The maze is not rectangular')
